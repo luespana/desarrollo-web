@@ -1,0 +1,113 @@
+/* RESET BÁSICO */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* NAV */
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* SECCIONES */
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* IMAGEN */
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 60%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* LISTAS */
+ul,
+ol {
+  padding-left: 20px;
+}
+
+/* FORMULARIO */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
